@@ -26,7 +26,7 @@
           <div class="popup_subscribe">
             <span class="popup_subscribe_e-mail">Вы подписаны на e-mail рассылку?</span>
             <div class="popup_subs">
-              <label>
+              <label class="popup_radio_btn">
                 <input class="popup_radio" type="radio" name="radio-group" checked>
                 <span class="popup_radio-group">Да</span>
               </label>
@@ -56,6 +56,11 @@
       <div class="header_top">
         <a class="logo" href="#0"><img src="svg/noemi-logo.svg" alt="Logo Noemi"></a>
           <nav class="menu">
+            <form class="menu_button_container" action="">
+              <button class="menu_button">
+                <span class="menu_button-label">Открыть меню</span>
+              </button>
+            </form>
             <ul class="menu_list">
               <li class="menu_item"><a class="menu_link" href="#0">Главная</a></li>
               <li class="menu_item"><a class="menu_link" href="#0">Посты</a></li>
@@ -118,7 +123,7 @@
       <main class="sheet_container">
         <article class="news_container">
           <div class="image_container">
-            <a class="news_img" href="#0"><img src="Images/last-post1.jpg" alt="Человек идёт по пляжу"></a>
+            <a class="news_img" href="#0"><img class="news_pict" src="Images/last-post1.jpg" alt="Человек идёт по пляжу"></a>
           </div>
           <div class="news">
             <ul class="news_tag">
@@ -138,7 +143,7 @@
 
         <article class="news_container">
           <div class="image_container">
-            <a class="news_img" href="#0"><img src="Images/last-post2.jpg" alt="Девушка занимается йогой на пляже"></a>
+            <a class="news_img" href="#0"><img class="news_pict" src="Images/last-post2.jpg" alt="Девушка занимается йогой на пляже"></a>
           </div>
           <div class="news">
             <ul class="news_tag">
@@ -158,7 +163,7 @@
 
         <article class="news_container">
           <div class="image_container">
-            <a class="news_img" href="#0"><img src="Images/last-post3.jpg" alt="Девушка в позе танца"></a>
+            <a class="news_img" href="#0"><img class="news_pict" src="Images/last-post3.jpg" alt="Девушка в позе танца"></a>
           </div>
           <div class="news">
             <ul class="news_tag">
@@ -178,7 +183,7 @@
 
         <article class="news_container">
           <div class="image_container">
-            <a class="news_img" href="#0"><img src="Images/last-post4.jpg" alt="Две тарелки с кастрюлей стоят на деревянном столе"></a>
+            <a class="news_img" href="#0"><img class="news_pict" src="Images/last-post4.jpg" alt="Две тарелки с кастрюлей стоят на деревянном столе"></a>
           </div>
           <div class="news">
             <ul class="news_tag">
@@ -198,7 +203,7 @@
 
         <article class="news_container">
           <div class="image_container">
-            <a class="news_img" href="#0"><img src="Images/last-post5.jpg" alt="Подушка с надписью лежит на стуле"></a>
+            <a class="news_img" href="#0"><img class="news_pict" src="Images/last-post5.jpg" alt="Подушка с надписью лежит на стуле"></a>
           </div>
           <div class="news">
             <ul class="news_tag">
@@ -326,9 +331,9 @@
     <section class="products_wrapper">
       <h2 class="products_title">Наши изделия</h2>
       <div class="products_content">
-        <div class="products_container">
+        <div class="products_container product_1">
           <div class="products_image_container">          
-            <picture>
+            <picture class="product_image">
               <source media="(min-width: 360px)" srcset="images/shop-item-mobile1.jpg">
               <source media="(min-width: 768px)" srcset="Images/shop-item-tablet1.jpg">
               <source media="(min-width: 1200px)" srcset="Images/shop-item-desk1.jpg">
@@ -358,9 +363,9 @@
           </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container product_2">
           <div class="products_image_container">
-            <picture>
+            <picture class="product_image">
               <source media="(min-width: 360px)" srcset="Images/shop-item-mobile2.jpg">
               <source media="(min-width: 768px)" srcset="Images/shop-item-tablet2.jpg">
               <source media="(min-width: 1200px)" srcset="Images/shop-item-desk2.jpg">
@@ -386,9 +391,9 @@
           </div>
         </div>
 
-        <div class="products_container">
+        <div class="products_container product_3">
           <div class="products_image_container">
-            <picture>
+            <picture class="product_image">
               <source media="(min-width: 360px)" srcset="Images/shop-item-mobile3.jpg">
               <source media="(min-width: 768px)" srcset="Images/shop-item-tablet3.jpg">
               <source media="(min-width: 1200px)" srcset="Images/shop-item-desk3.jpg">
