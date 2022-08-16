@@ -361,6 +361,7 @@ img {
 
 .news_pict {
   max-width: 100%;
+  width: 380px;
 }
 
 .news_title {
